@@ -2,7 +2,7 @@ import React from "react";
 
 import aboutus from "../../images/aboutus.png";
 
-const index = ({ count }) => {
+const AboutUsCard = ({ count }) => {
   return (
     <div>
       <img src={aboutus} alt="section of a green bush" />
@@ -23,4 +23,4 @@ const index = ({ count }) => {
   );
 };
 
-export default index;
+export default AboutUsCard;
