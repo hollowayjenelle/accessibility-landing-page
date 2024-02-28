@@ -1,0 +1,35 @@
+.about-us-card {
+  background-color: #3a6150;
+  max-width: 647px;
+  width: auto;
+  padding: 24px 24px 35px 24px;
+  display: flex;
+}
+
+.about-content {
+  width: 401px;
+  margin-left: 20px;
+  color: white;
+}
+
+.about-us-title {
+  margin-top: -3px;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.about-paragraph {
+  margin-top: -10px;
+}
+
+.about-btn {
+  margin-top: 15px;
+  background-color: #3a6150;
+  border: none;
+  padding: 0;
+  text-decoration: underline;
+  color: white;
+  font-family: "Outfit";
+  font-weight: 700;
+  text-align: left;
+}
