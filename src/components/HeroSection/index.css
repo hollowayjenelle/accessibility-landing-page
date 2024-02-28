@@ -1,7 +1,52 @@
+.hero-parent {
+  background-color: #f9f9f9;
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+
 .hero-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   margin-left: auto;
   margin-right: auto;
+}
+
+.hero-info {
+  max-width: 647px;
+  width: auto;
+}
+
+.hero-title,
+.hero-subtitle {
+  color: #3a6150;
+}
+
+.hero-title {
+  color: #3a6150;
+  font-weight: 700;
+  font-size: 48px;
+  margin-bottom: -15px;
+}
+
+.hero-subtitle {
+  font-size: 24px;
+  font-weight: 500;
+  text-align: left;
+  margin-bottom: -5px;
+}
+
+.hero-paragraph {
+  line-height: 21px;
+  color: #111111;
+}
+
+.hero-button {
+  background-color: #3a6150;
+  color: white;
+  width: 196px;
+  padding: 11px 63px;
+  border: none;
+  margin-top: 20px;
+  border-radius: 2px;
 }

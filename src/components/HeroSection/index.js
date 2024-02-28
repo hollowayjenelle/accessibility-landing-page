@@ -5,12 +5,12 @@ import "./index.css";
 
 const HeroSection = () => {
   return (
-    <div className="parent-container">
+    <div className="parent-div hero-parent">
       <div className="hero-container content-container">
-        <div>
-          <h1>Lorem ipsum dolor sit amet</h1>
-          <h5>Lorem ipsum dolor sit amet</h5>
-          <p>
+        <div className="hero-info">
+          <h1 className="hero-title">Lorem ipsum dolor sit amet</h1>
+          <h5 className="hero-subtitle">Lorem ipsum dolor sit amet</h5>
+          <p className="hero-paragraph">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eleifend
             tincidunt posuere eu risus cursus. Senectus sed maecenas viverra
             tempus at. Nulla aliquam ac diam amet, sagittis, ut ultricies. Urna
@@ -18,10 +18,14 @@ const HeroSection = () => {
             ut ultricies. Urna hendrerit morbi sed gravida. Lorem ipsum dolor
             sit amet, consectetur adipiscing elit.
           </p>
-          <button>Buy Now</button>
+          <button className="hero-button">Buy Now</button>
         </div>
         <div>
-          <img src={greenleaf} alt="close up of green leaves" />
+          <img
+            src={greenleaf}
+            alt="close up of green leaves"
+            className="hero-section-img"
+          />
         </div>
       </div>
     </div>

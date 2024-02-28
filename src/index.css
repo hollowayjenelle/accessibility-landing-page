@@ -14,11 +14,23 @@ code {
 
 .parent-div {
   width: 100%;
-  padding-left: 20px;
-  padding-right: 20px;
 }
 
 .content-container {
-  max-width: 1083px;
+  max-width: 1440px;
   width: auto;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+h1,
+h4,
+h5 {
+  font-family: "Outfit", sans-serif;
+}
+
+p {
+  font-family: "Helvetica", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
 }
