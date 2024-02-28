@@ -1,0 +1,51 @@
+.contact-info {
+  width: 365px;
+  padding: 30px;
+}
+
+.details-title {
+  font-size: 48px;
+  font-weight: 700;
+  color: #111111;
+}
+
+#details-paragraph {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  margin-top: -15px;
+  color: #111111;
+}
+
+.contact-details-group {
+  margin-top: 50px;
+  margin-bottom: 180px;
+}
+
+.contact-details {
+  display: flex;
+  align-items: center;
+}
+
+.details-info {
+  margin-left: 13px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #111111;
+}
+
+.fa-facebook-f {
+  width: 1em;
+  text-align: center;
+  border: 2px solid black;
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+}
+
+.social-icons {
+  width: 168px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
