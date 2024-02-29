@@ -1,0 +1,67 @@
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 24px;
+  padding-bottom: 40px;
+}
+
+.company-name {
+  font-size: 48px;
+  margin-bottom: -10px;
+  margin-top: -5px;
+}
+
+.subscription-text {
+  font-family: "Outfit", sans-serif;
+}
+
+#footer-input {
+  border: 0;
+  outline: 0;
+  border-bottom: 2px solid black;
+  width: 308px;
+}
+
+.subscribe-btn {
+  background-color: #3a6150;
+  padding: 16px 100px;
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+  border: none;
+  margin-left: 15px;
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-nav > button {
+  background-color: transparent;
+  border: none;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.footer-contact {
+  margin-top: -20px;
+}
+
+.footer-contact > p {
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.footer-contact-details {
+  color: #00000099;
+}
+
+.footer-icons {
+  margin-top: 40px;
+}
