@@ -1,6 +1,8 @@
 .contact-info {
   width: 365px;
   padding: 30px;
+  margin-right: -15px;
+  z-index: 1;
 }
 
 .details-title {

@@ -1,16 +1,22 @@
 import React from "react";
 
+import "./index.css";
+
 const ContactForm = () => {
   return (
-    <form>
+    <form className="contact-form">
       <div className="full-name">
         <div className="first-name">
-          <label for="fname">First name</label>
+          <label for="fname">
+            <sup className="fa fa-asterisk"></sup>First name
+          </label>
           <br />
           <input type="text" id="fname" name="fname" />
         </div>
         <div className="last-name">
-          <label for="lname">Last name</label>
+          <label for="lname">
+            <sup className="fa fa-asterisk"></sup>Last name
+          </label>
           <br />
           <input type="text" id="lname" name="lname" />
         </div>
@@ -28,31 +34,47 @@ const ContactForm = () => {
         </div>
       </div>
       <div className="positions">
-        <input type="radio" id="uidev" name="position" value="UI Developer" />
-        <label for="uidev">UI Developer</label>
-        <input
-          type="radio"
-          id="uidesign"
-          name="position"
-          value="UI/UX Designer"
-        />
-        <label for="uidesign">UI/UX Designer</label>
-        <input
-          type="radio"
-          id="accessibility"
-          name="position"
-          value="Accessibility Expert"
-        />
-        <label for="accessibility">Accessibility Expert</label>
-        <input type="radio" id="qaeng" name="position" value="QA Engineer" />
-        <label for="qaeng">QA Engineer</label>
-        <input type="radio" id="other" name="position" value="Other" />
-        <label for="other">Other</label>
+        <div>
+          <input type="radio" id="uidev" name="position" value="UI Developer" />
+          <label for="uidev">UI Developer</label>
+        </div>
+        <div>
+          <input
+            type="radio"
+            id="uidesign"
+            name="position"
+            value="UI/UX Designer"
+          />
+          <label for="uidesign">UI/UX Designer</label>
+        </div>
+        <div>
+          <input
+            type="radio"
+            id="accessibility"
+            name="position"
+            value="Accessibility Expert"
+          />
+          <label for="accessibility">Accessibility Expert</label>
+        </div>
+        <div>
+          <input type="radio" id="qaeng" name="position" value="QA Engineer" />
+          <label for="qaeng">QA Engineer</label>
+        </div>
+        <div>
+          <input type="radio" id="other" name="position" value="Other" />
+          <label for="other">Other</label>
+        </div>
       </div>
       <div className="text-area">
         <label for="message">Message</label>
         <br />
-        <textarea id="message" name="message" rows="4" cols="10"></textarea>
+        <textarea
+          id="message"
+          name="message"
+          rows="8"
+          cols="10"
+          placeholder="Text here..."
+        ></textarea>
       </div>
       <div className="terms">
         <input
@@ -70,7 +92,9 @@ const ContactForm = () => {
         />
         <label for="accept2">Accept the Terms 2</label>
       </div>
-      <button>Send Message </button>
+      <div className="btn-section">
+        <button className="send-btn">Send Message </button>
+      </div>
     </form>
   );
 };
