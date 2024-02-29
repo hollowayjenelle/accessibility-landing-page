@@ -6,7 +6,7 @@ import "./index.css";
 const HeroSection = () => {
   return (
     <div className="parent-div hero-parent">
-      <div className="hero-container content-container">
+      <section className="hero-container content-container">
         <div className="hero-info">
           <h1 className="hero-title">Lorem ipsum dolor sit amet</h1>
           <h5 className="hero-subtitle">Lorem ipsum dolor sit amet</h5>
@@ -27,7 +27,7 @@ const HeroSection = () => {
             className="hero-section-img"
           />
         </div>
-      </div>
+      </section>
     </div>
   );
 };

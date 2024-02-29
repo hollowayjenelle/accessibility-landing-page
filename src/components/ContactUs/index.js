@@ -6,10 +6,10 @@ import "./index.css";
 const ContactUs = () => {
   return (
     <div className="parent-div contact-parent">
-      <div className="contact-container content-container">
+      <section className="contact-container content-container">
         <ContactDetails />
         <ContactForm />
-      </div>
+      </section>
     </div>
   );
 };

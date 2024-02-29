@@ -5,10 +5,10 @@ import "./index.css";
 const AboutUs = () => {
   return (
     <div className="parent-div">
-      <div className="about-container content-container">
+      <section className="about-container content-container">
         <AboutUsCard />
         <AboutUsCard count={2} />
-      </div>
+      </section>
     </div>
   );
 };
