@@ -6,7 +6,7 @@ import "./index.css";
 const Header = () => {
   return (
     <div className="parent-div">
-      <header className="header-container">
+      <header className="header-container content-container">
         <div>
           <img
             src={logo}
@@ -15,8 +15,14 @@ const Header = () => {
           />
         </div>
         <nav className="header-nav">
-          <a href="google.com">About Us</a> |<a>Contact Us</a> |<a>Blog</a> |
-          <a>Site Map</a> |
+          <button>About Us</button>
+          <span>|</span>
+          <button>Contact Us</button>
+          <span>|</span>
+          <button>Blog</button>
+          <span>|</span>
+          <button>Site Map</button>
+          <span>|</span>
           <select>
             <option>Eng</option>
           </select>
