@@ -72,3 +72,9 @@ input[type="radio"],
 input[type="checkbox"] {
   accent-color: #3a6150;
 }
+
+label {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
