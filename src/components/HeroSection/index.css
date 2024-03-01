@@ -51,3 +51,8 @@
   font-family: "Outfit", sans-serif;
   font-size: 18px;
 }
+
+.hero-section-img {
+  width: 648px;
+  height: 648px;
+}
