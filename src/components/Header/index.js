@@ -23,7 +23,7 @@ const Header = () => {
           <span>|</span>
           <button>Site Map</button>
           <span>|</span>
-          <select>
+          <select aria-label="Language">
             <option>Eng</option>
           </select>
         </nav>
@@ -33,7 +33,7 @@ const Header = () => {
             placeholder="Search this site"
             className="search-input"
           />
-          <button className="search-button">
+          <button className="search-button" aria-label="Search">
             <i className="fa fa-search fa-1x"></i>
           </button>
         </form>
